@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  background-color: #f2e6ff; /* Soft lavender background */
+}
+
+.centered-content {
+  text-align: center;
+}
+
+h1 {
+  color: #af8cf7; /* Light lavender color for heading */
+  text-shadow: -1px -1px 0 #d8b3ff, 1px -1px 0 #d8b3ff, -1px 1px 0 #d8b3ff, 1px 1px 0 #d8b3ff; /* Soft shadow effect */
+}
+
+button {
+  width: 100px;
+  margin: 20px 20px 0 20px;
+  position: relative;
+  background-color: #af8cf7; /* Lavender color for button */
+  color: white; /* White text color */
+  border: none; /* Remove button border */
+  padding: 10px; /* Add padding for better appearance */
+  border-radius: 5px; /* Add some rounded corners */
+  font-weight: bold; /* Make text bold */
+  cursor: pointer; /* Show pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: #8a63d2; /* Darker shade of lavender on hover */
+}
+#valentineImage {
+  height: auto;
+  max-height: 400px; /* Adjust this value to your desired height */
+}
+#noImage{
+  height: auto;
+  max-height: 400px; /
+}
